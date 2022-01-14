@@ -2,7 +2,7 @@
 Use this Five Star Input in your vue projects to easily get user input using stars. You can easily adjust the colour and height of the star icons to fit your project. Use the `name` prop to give your input field a name for the form you put it in. It uses a hidden input field with that name and the value of the stars selected.
 ## Project setup
 ```
-npm install
+npm install --save vue-five-star-input
 ```
 
 ## Usage
