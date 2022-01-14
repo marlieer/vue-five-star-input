@@ -1,9 +1,9 @@
-import VueFiveStarInput from "./component.vue";
+import FiveStarInput from "./component.vue";
 
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("vue-five-star-input", VueFiveStarInput);
+  Vue.component("vue-five-star-input", FiveStarInput);
 }
 
 const plugin = {
@@ -20,6 +20,6 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-VueFiveStarInput.install = install;
+FiveStarInput.install = install;
 
-export default VueFiveStarInput;
+export default FiveStarInput;
