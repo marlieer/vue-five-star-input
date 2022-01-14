@@ -14,7 +14,6 @@ import { faStar as faStarFilled} from '@fortawesome/free-solid-svg-icons'
 import { faStar } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 export default {
-    name: "FiveStarInput",
     components: {
         FontAwesomeIcon
     },
